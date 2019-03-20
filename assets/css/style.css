@@ -2,6 +2,8 @@
 
 /*--------------------------------------------Colors*/
 
+/*main title*/
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -9,13 +11,25 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #525252;
     color: #555555;
 }
+
+/* Date color*/
 
 label {
     color: red;
 }
+
+/* footer color*/
+
+.navbar-fixed-bottom {
+    background-color: #676767;
+    color: #ffffff;
+}
+
+
+
+
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
@@ -30,7 +44,7 @@ h4 {
 }
 
 .input-group-left,
-.input-group-right{
+.input-group-right {
     margin-top: 75px;
     line-height: 2em;
 }
@@ -53,7 +67,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: auto;
 }
 
 .logo {
@@ -80,15 +94,62 @@ header {
 }
 
 /*--------------------------------------------buttons*/
+
+/* attractions/accomodation/bars */
+
 .btn-group {
-border-radius: 8px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-width: 85%;
-justify-content: center;
-margin: 0 auto; 
-text-align: center;
-margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 85%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
 }
+
+.btn-default {
+    -moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #caefab;
+    box-shadow: inset 0px 1px 0px 0px #caefab;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+    background: -moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811', GradientType=0);
+    background-color: #77d42a;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 2px solid #268a16;
+    display: inline-block;
+    cursor: pointer;
+    color: #306108;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #aade7c;
+}
+
+.btn-default:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+    background: -moz-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+    background: -webkit-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+    background: -o-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+    background: -ms-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+    background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a', GradientType=0);
+    background-color: #5cb811;
+}
+
+.btn-default:active {
+    position: relative;
+    top: 1px;
+}
+
 /*--------------------------------------------Hover.css*/
 
 /*--------------------------------------------Footer*/
@@ -141,4 +202,48 @@ footer .cv-pdf i:hover {
 
 #footer-details {
     margin: 20px;
+}
+
+/*---------------------media querys */
+
+@media only screen and (max-width: 767px) {
+    .btn,
+    .btn-default {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn,
+    .btn-default {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size: 60px;
+    }
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
 }
