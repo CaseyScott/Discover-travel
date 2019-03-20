@@ -11,48 +11,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
 </head>
 
 <body>
-    <!-- Search form -->
-    <form class="form-inline ">
+    <!-- Search bar up the top-->
+    <form class="col-md-offset-10" "form-inline ">
         <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
         <i class="fa fa-search" aria-hidden="true"></i>
     </form>
+
+    <!-- Heading title (brand name) -->
     <header class="container-fluid">
         <div class="row">
             <a href="index.html">
-                <div class="col-md-4 logo"></div>
+                <div class="logo"></div>
             </a>
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="row bg-color-name-title">
                     <div class="heading">
-                        <h1 class="title"> Discover</h1>
+                        <h1 class="title uppercase">
+                            <center> Discover</center>
+                        </h1>
                     </div>
-                </div>
-
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-bars menuitem">
-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-glass" aria-hidden="true"></i><span>Bars & Resturaunts</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-accomodation menuitem">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-home" aria-hidden="true"></i><span>Accomodation</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-attractions menuitem ">
-                            <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Attractions</span></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
     </header>
-    <div class="row">
 
+    <!-- Left hand search bar for starting point of travel -->
+    <div class="row start-search">
+        <div class="col-lg-6">
+            <div class="input-group-left">
+                <input type="text" class="form-control" placeholder="Starting from...">
+                <form>
+                    <label>Date: </label>
+                    <input type="date" id="inputDateStart" min="2019-01" />
+                    <input type="submit" />
+                </form>
+            </div>
+        </div>
+
+        <!-- Right hand search bar for destination of travel -->
+        <div class="col-md-6">
+            <div class="input-group-right">
+                <input type="text" class="form-control" placeholder="Destination">
+                <form>
+                    <label>Date: </label>
+                    <input type="date" id="inputDateFinsh" min="2019-01" />
+                    <input type="submit" />
+                </form>
+            </div>
+        </div>
+
+        <!-- bottons for Attractions/Accomodation/Bars -->
+        <div class="row col-md-offset-2 col-md-8">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Tourist Attractions</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Accomodation</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">Bars/Resturaunts</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer set in navbar-fixed-bottom -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <footer class="container-fluid ">
+                <div id="footer-details" class="row ">
+                    <div class="col-md-6 ">
+                        <h5 class="uppercase general-sub ">Discover</h5>
+                        <p class="inline-block ">
+                            Planning your next holiday destination...Check out some of our most searched hot spots
+                        </p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h5 class="uppercase general-sub ">Our Links</h5>
+                        <ul class="list-inline social-links ">
+                            
+                            <!-- link these to actually pages -->
+                            <li><a target="_blank" href="# "><i class="fa fa-facebook "></i></a></li>
+                            <li><a target="_blank" href="# "><i class="fa fa-twitter "></i></a></li>
+                            <li><a target="_blank" href="# "><i class="fa fa-linkedin "></i></a></li>
+                            <li><a target="_blank" href="# "><i class="fa fa-pinterest "></i></a></li>
+                            <li><a target="_blank" href="# "><i class="fa fa-instagram "></i></a></li>
+                            <li><a target="_blank" href="# "><i class="fa fa-youtube "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </nav>
 </body>
 
 </html>
