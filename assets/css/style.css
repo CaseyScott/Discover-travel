@@ -14,12 +14,6 @@ body {
     color: #555555;
 }
 
-/* Date color*/
-
-label {
-    color: red;
-}
-
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
@@ -42,13 +36,18 @@ h4 {
 }
 
 .inline-block {
-    display: inline-block;
+    display: block;
 }
 
-.input-group-left,
-.input-group-right {
+.searchBox {
     margin-top: 75px;
     line-height: 2em;
+    
+}
+
+#search {
+    margin: 10px auto;
+    display: inline-block;
 }
 
 .form-control-left {
@@ -61,7 +60,7 @@ html {
 }
 
 .row {
-    margin: 0;
+    margin: 9px;
 }
 
 /*--------------------------------------------Heading*/
@@ -99,16 +98,24 @@ header {
 
 /*--------------------------------------------buttons*/
 
-/* attractions/accomodation/bars */
+/*--------------------- attractions/accomodation/bars */
 
-.btn-group {
+.searchButton {
     border-radius: 8px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
+    width: 30%;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 120px;
+}
+
+.btn-group {
+    border-radius: 8px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 -8px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .btn-default {
@@ -133,7 +140,7 @@ header {
     font-family: Arial;
     font-size: 21px;
     font-weight: bold;
-    padding: 6px 24px;
+    padding: 6px 10px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #aade7c;
 }
@@ -155,8 +162,6 @@ header {
 }
 
 /*--------------------------------------------calender*/
-
-
 
 /*--------------------------------------------Footer*/
 
@@ -237,35 +242,25 @@ footer .cv-pdf i:hover {
 @media only screen and (max-width: 470px) {
     .btn,
     .btn-default {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 550px) {
     .title {
         font-size: 60px;
     }
 }
 
-
-
-
-
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
+@media only screen and (max-width: 550px) {
+    .title {
+        font-size: 50px;
+    }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
+@media only screen and (max-width: 320px) {
+    .title {
+        font-size: 40px;
+    }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-
-@media only screen and (min-width: 1224px) {
-    /* Styles */
-}
