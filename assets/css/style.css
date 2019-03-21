@@ -6,6 +6,8 @@
 
 .bg-color-name-title {
     background-color: #676767;
+    font-family: 'Pacifico', cursive;
+    border-radius: 25px;
 }
 
 body {
@@ -88,7 +90,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Lustria', serif;
     font-weight: 200;
     font-size: 90px;
     margin-top: 20px;
