@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
 
+
+
 </head>
 
 <body>
@@ -34,14 +36,15 @@
             </div>
         </div>
     </header>
-    
+
     <!-- search bar for City-->
-    <div class="row start-search">
+    <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="searchBox">
-                <input type="search" id="search" class="form-control" placeholder="City">
+            <div id="location">
+                <input type="text" id="autocomplete" class="form-control" placeholder="Enter a location">
             </div>
         </div>
+
 
         <!-- bottons for Attractions/Accomodation/Bars -->
         <div class="row col-md-12 col-sm-12 col-xs-12">
@@ -59,28 +62,36 @@
         </div>
     </div>
 
-   <!-- search button -->
-    <!-- <div class="row">
-        <div class="btn-group">
-            <div class="searchButton">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Search</button>
-            </div>
-        </div>
-    </div> -->
+    <div id="map"></div>
 
-    <footer class="container-fluid ">
-        <div id="footer-details" class="row ">
-            <div class="col-sm-4 ">
-                <h5 class="general-sub ">Helpful Links</h5>
-                <ul class="list-inline social-links ">
-                    <li><a target="_blank" href="https://www.instagram.com/explore/tags/besttraveldestinationoftheyear/"><i class="fa fa-instagram "></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/results?search_query=best+travel+destinations+in+the+world"><i class="fa fa-youtube "></i></a></li>
-                    <li><a target="_blank" href="https://www.google.com/flights?hl=en#flt=/m/0gs0g..2019-04-07*./m/0gs0g.2019-04-11;c:NZD;e:1;ls:1w;sd:0;t:h"><i class="fa fa-google"></i></a></li>
-                    <li><a target="_blank" href="https://www.google.com/maps/@-41.1040839,173.0092801,15z"><i class="fa fa-map-marker "></i></a></li>
-                </ul>
+    <section>
+        <footer class="container-fluid ">
+            <div id="footer-details" class="row ">
+                <div class="col-sm-4 ">
+                    <h5 class="general-sub ">Helpful Links</h5>
+                    <ul class="list-inline social-links ">
+                        <li><a target="_blank" href="https://www.instagram.com/explore/tags/besttraveldestinationoftheyear/"><i class="fa fa-instagram "></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/results?search_query=best+travel+destinations+in+the+world"><i class="fa fa-youtube "></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/flights?hl=en#flt=/m/0gs0g..2019-04-07*./m/0gs0g.2019-04-11;c:NZD;e:1;ls:1w;sd:0;t:h"><i class="fa fa-google"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com/maps/@-41.1040839,173.0092801,15z"><i class="fa fa-map-marker "></i></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </section>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
+    
+    <script src="assets/js/search.js" async></script>
+    <script src="assets/js/scroll.js" async></script>
+  
+    
+
+
+
+
 </body>
+
 
 </html>
