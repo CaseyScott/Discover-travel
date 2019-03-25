@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
 
-
+    <link rel="shortcut icon" href="#">
 
 </head>
 
@@ -48,6 +48,7 @@
         <!-- bottons for Attractions/Accomodation/Bars -->
         <div class="row col-md-12 col-sm-12 col-xs-12">
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
+
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-default">Attractions</button>
                 </div>
@@ -61,7 +62,6 @@
         </div>
     </div>
 
-    <!-- The Map -->
     <div class="pac-card" id="pac-card">
         <div>
             <div id="title">
@@ -95,6 +95,9 @@
         <span id="place-name" class="title"></span><br>
         <span id="place-address"></span>
     </div>
+    <!-- The Map -->
+    <div id="map"></div>
+
 
 
     <!--youtube videos-->
@@ -102,9 +105,9 @@
         <div class="youtube-wrapper">
             <div class="row">
                 <div>
-                    <iframe class="col-xs-12 col-sm-6 col-md-4" height="280" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="col-xs-12 col-sm-6 col-md-4" height="280" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="col-xs-12 col-sm-6 col-md-4" height="280" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -113,17 +116,12 @@
 
     <!-- Java Script links -->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&callback=initMap"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&callback=initMap" async defer></script>
+
     <script src="assets/js/maps.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&libraries=places&callback=initMap" async defer></script>
 
-    <script src="assets/js/search.js" async></script>
-    <script src="assets/js/scroll.js" async></script>
 
-    <!-- Resizing the menu on toggle when viewed in mobile -->
-
-    <script src="assets/js/nav.js" async></script>
-    <script src="assets/js/maps.js" async></script>
 
 
 
