@@ -114,7 +114,7 @@ header {
     justify-content: center;
     margin: 0 -8px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .btn-default {
@@ -294,33 +294,25 @@ table {
     overflow-x: hidden;
 }
 
-#findhotels {
-    position: absolute;
-    text-align: right;
-    width: 100px;
-    font-size: 14px;
-    padding: 4px;
-    z-index: 5;
-    background-color: #fff;
-}
-
 #locationField {
-    position: absolute;
+   
     width: 190px;
     height: 25px;
     left: 108px;
     top: 0px;
     z-index: 5;
     background-color: #fff;
+    margin: 0 auto;
 }
 
 #controls {
-    position: absolute;
+    
     left: 300px;
     width: 140px;
     top: 0px;
     z-index: 5;
     background-color: #fff;
+    margin: 0 auto;
 }
 
 #autocomplete {
