@@ -251,6 +251,10 @@ table {
 
 /*-----------------------------------radio options*/
 
+#placestoggle {
+text-align: center;
+}
+
 #places {
     top: 50px;
     padding: 15px;
@@ -281,8 +285,20 @@ table {
     padding: 6px 10px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #aade7c;
+    
 }
 
+label {
+ font-size: 16px;
+ margin-right: 4px;
+ margin-top: 10px;
+ 
+}
+
+input[name="option"] {
+ height: 10px;
+ margin-top: 23px;
+}
 /*--------------------------------------------Footer*/
 
 footer {
