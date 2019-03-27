@@ -94,9 +94,15 @@ header {
     color: #ffffff;
     border-radius: 23px;
     text-align: center;
+    border-style: solid;
+    border-color: black;
 }
 
-/*--------------------------------------------buttons*/
+/*----------------------------------------youtube*/
+.iframe {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 /*--------------------- attractions/accomodation/bars */
 
