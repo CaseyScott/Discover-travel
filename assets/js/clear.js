@@ -1,5 +1,6 @@
 $(document).ready(function() {
     
+    $("#autocompleteId").val('');  
     // Function for clearing out the location field when a new country is selected
     var autoComplete = document.querySelector("#autocomplete");
     var country = document.querySelector('#country');

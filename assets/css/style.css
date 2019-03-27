@@ -181,8 +181,8 @@ table {
     width: 200px;
     height: 470px;
     overflow: auto;
-    left: 442px;
-    top: 0px;
+    left: 60px;
+    top: 270px;
     cursor: pointer;
     overflow-x: hidden;
 }
@@ -230,6 +230,7 @@ table {
 #resultsTable {
     border-collapse: collapse;
     width: 240px;
+    
 }
 
 #rating {
@@ -356,48 +357,47 @@ footer .cv-pdf i:hover {
 
 /*---------------------media querys */
 
-@media only screen and (max-width: 820px) {
-    .btn,
-    .btn-default {
-        font-size: 16px;
+
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 70px;
     }
 }
 
-@media only screen and (max-width: 650px) {
-    .btn,
-    .btn-default {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 530px) {
-    .btn,
-    .btn-default {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 470px) {
-    .btn,
-    .btn-default {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
     .title {
         font-size: 60px;
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 440px) {
     .title {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .title {
-        font-size: 40px;
+@media (max-width: 1060px) {
+    #listing {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    #listing {
+        left: 45px;
+    }
+}
+
+@media (max-width: 1220px) {
+    #listing {
+        left: 30px;
+    }
+}
+
+@media (max-width: 1180px) {
+    #listing {
+        left: 10px;
     }
 }
