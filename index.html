@@ -33,8 +33,9 @@
         </div>
     </header>
 
-        <div id="controls">
-            <select id="country">
+
+    <div id="controls">
+        <select id="country">
     <option value="all">All</option>
     <option value="au">Australia</option>
     <option value="br">Brazil</option>
@@ -50,94 +51,102 @@
     <option value="us" selected>U.S.A.</option>
     <option value="uk">United Kingdom</option>
   </select>
+    </div>
+
+    <!-- search bar for City-->
+    <div class="row">
+        <div id="locationField">
+            <input id="autocomplete" placeholder="Enter a city" type="text" />
         </div>
 
-        <!-- search bar for City-->
-        <div class="row">
-            <div id="locationField">
-                <input id="autocomplete" placeholder="Enter a city" type="text" />
-            </div>
 
+        <!-- Radio buttons for places -->
 
-            <!-- Radio buttons for places -->
-
-            <div id="placestoggle">
-                <div id="places">
-                    <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
-                    <label for="lodging">Hotel</label>
-                    <input onchange="search()" type="radio" id="museum" name="option" />
-                    <label for="museum">Museum</label>
-                    <input onchange="search()" type="radio" id="restaurant" name="option" />
-                    <label for="restaurant">Restaurant</label>
-                    <input onchange="search()" type="radio" id="bar" name="option" />
-                    <label for="bar">Bar</label>
-                    <input onchange="search()" type="radio" id="airport" name="option" />
-                    <label for="airport">Airport</label>
-                    <input onchange="search()" type="radio" id="bank" name="option" />
-                    <label for="bank">Bank</label>
-                </div>
+        <div id="placestoggle">
+            <div id="places">
+                <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
+                <label for="lodging">Hotel</label>
+                <input onchange="search()" type="radio" id="museum" name="option" />
+                <label for="museum">Museum</label>
+                <input onchange="search()" type="radio" id="restaurant" name="option" />
+                <label for="restaurant">Restaurant</label>
+                <input onchange="search()" type="radio" id="bar" name="option" />
+                <label for="bar">Bar</label>
+                <input onchange="search()" type="radio" id="airport" name="option" />
+                <label for="airport">Airport</label>
+                <input onchange="search()" type="radio" id="bank" name="option" />
+                <label for="bank">Bank</label>
             </div>
         </div>
+    </div>
 
-        <div id="map"></div>
+    <div id="map"></div>
 
-        <div id="listing">
-            <table id="resultsTable">
-                <tbody id="results"></tbody>
+    <div id="listing">
+        <table id="resultsTable">
+            <tbody id="results"></tbody>
+        </table>
+    </div>
+
+    <div style="display: none">
+        <div id="info-content">
+            <table>
+                <tr id="iw-url-row" class="iw_table_row">
+                    <td id="iw-icon" class="iw_table_icon"></td>
+                    <td id="iw-url"></td>
+                </tr>
+                <tr id="iw-address-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Address:</td>
+                    <td id="iw-address"></td>
+                </tr>
+                <tr id="iw-phone-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Telephone:</td>
+                    <td id="iw-phone"></td>
+                </tr>
+                <tr id="iw-rating-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Rating:</td>
+                    <td id="iw-rating"></td>
+                </tr>
+                <tr id="iw-website-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Website:</td>
+                    <td id="iw-website"></td>
+                </tr>
             </table>
         </div>
+    </div>
+    <!-- The Map -->
 
-        <div style="display: none">
-            <div id="info-content">
-                <table>
-                    <tr id="iw-url-row" class="iw_table_row">
-                        <td id="iw-icon" class="iw_table_icon"></td>
-                        <td id="iw-url"></td>
-                    </tr>
-                    <tr id="iw-address-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Address:</td>
-                        <td id="iw-address"></td>
-                    </tr>
-                    <tr id="iw-phone-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Telephone:</td>
-                        <td id="iw-phone"></td>
-                    </tr>
-                    <tr id="iw-rating-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Rating:</td>
-                        <td id="iw-rating"></td>
-                    </tr>
-                    <tr id="iw-website-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Website:</td>
-                        <td id="iw-website"></td>
-                    </tr>
-                </table>
+
+
+
+    <!--youtube videos-->
+    <div class="youtube-wrapper">
+        <div class="row">
+            <div>
+                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <!-- The Map -->
+    </div>
+
+    <!-- Java Script links -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
 
 
+    <!--autocomplete feature of the Google Places API. -->
+    <script src="assets/js/maps.js"></script>
+    <!-- Filters the radio buttons by type checked -->
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/clear.js"></script>
 
-        <!--youtube videos-->
-        <div class="youtube-wrapper">
-            <div class="row">
-                <div>
-                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <!-- Java Script links -->
-        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&libraries=places&callback=initMap" async defer></script>
-
-        <script src="assets/js/maps.js"></script>
-        <script src="assets/js/search.js"></script>
-        <script src="assets/js/clear.js"></script>
-
+    <!-- Load the API from the specified URL
+    *The async attribute allows the browser to render the page while the API loads
+    *The key parameter will contain the API key(needed in order for Google Maps to work)
+    *The callback parameter executes the initMap() function -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLEH6HcZQQbInyPzNosw4qUQvmC2k02Hs&libraries=places&callback=initMap" async defer></script>
 
 
 
