@@ -48,5 +48,5 @@ deploying as soon as there is something worth showing to the target audience of 
 Using Cloud9 the code has been committed and pushed to:
 https://github.com/CaseyScott/milestone-2-interactive-frontend
 The website is published using GitHub Pages:
-<!—link is github pages *************************
+<!—link is github pages: https://caseyscott.github.io/milestone-2-interactive-frontend/
 

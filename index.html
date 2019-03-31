@@ -80,14 +80,17 @@
         </div>
     </div>
 
+    <!-- the map -->
     <div id="map"></div>
 
+    <!-- drop down options for pins on map-->
     <div id="listing">
         <table id="resultsTable">
             <tbody id="results"></tbody>
         </table>
     </div>
 
+    <!-- information for each of the addresses given on the map-->
     <div style="display: none">
         <div id="info-content">
             <table>
@@ -114,30 +117,60 @@
             </table>
         </div>
     </div>
-    <!-- The Map -->
-
-
-
 
     <!--youtube videos-->
-    <div class="youtube-wrapper">
-        <div class="row">
-            <div>
-                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section>
+        <div class="youtube-wrapper">
+            <div class="row">
+                <div>
+                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/hxeITyt_XfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/sRyslbdtT90" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="iframe col-xs-12 col-sm-12 col-md-4" height="180" src="https://www.youtube.com/embed/UoD8G6X0y00" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Java Script links -->
+    <section>
+        <div class="container-fluid">
+            <div class="center-form">
+                <form id="form" onsubmit="return sendMail(this);">
+                    <input required="required" type="text" name="name" class="form-control" id="fullname" placeholder="Name" />
+                    <input required="required" type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" pattern=".+@gmail.com" size="30" title="Must be a gmail.com email address" />
+                    <textarea required="required" rows="5" name="inquiry" class="form-control" id="inquiry" placeholder="Please fill out an inquiry form"></textarea>
+                    <button id="contact" type="submit" class="btn btn-secondary center-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- References and initialises emailjs -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_IplWuqfdTGajOInKSikNU");
+        })();
+    </script>
+
+    <!-- References and initialises wow.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" async></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- jQuery and Javascript for site functionalities -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+
+    <!-- Google Maps script for markers on the map -->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-
-
 
     <!--autocomplete feature of the Google Places API. -->
     <script src="assets/js/maps.js"></script>
+
+    <!-- Sends emails on submit button using the contact form -->
+    <script src="assets/js/sendMail.js" async></script>
+
     <!-- Filters the radio buttons by type checked -->
     <script src="assets/js/search.js"></script>
     <script src="assets/js/clear.js"></script>
