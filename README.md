@@ -7,10 +7,10 @@
  
 
 Overview:
-This single page application is designed for people looking to Discover the world by holiday travel destinations. search for hotels, bars, restrarunts etc
+This website is designed for people looking to Discover the world. search for hotels, bars, restrarunts anywhere around the globe.
 
 UX:
-This application is for users looking for an easy way to search popular locations around the globe, it allows users to choose between a selector to be shown on the map different Locations, Attractions, Accommodation, Restaurants, Bars, Banks and airports. By searching the location then choosing Hotels the user will be shown all the Hotels in that area with contact details and a star ratings.
+This website is for users looking for an easy way to search popular locations around the world, it allows users to choose between a Country selector and city input search bar to be shown on the map different Locations, Attractions, Accommodation, Restaurants, Bars, Banks and airports. By searching the location then choosing Hotels the user will be shown all the Hotels in that area with contact details and a star ratings.
 
 User Stories:
 As a user, I can search the country/city  I want to travel to,  and find Hotels and Bars within that searched area.
@@ -18,7 +18,7 @@ As a user not knowing where I would like to travel to I can use one of the YouTu
 As a user looking to ‘Bar Hop’ through the USA I am able to use the ‘Bar’ selector and find Bars in my selected area.
 
 WireFrames:
-
+wire frame mock up in Images*
 
 Features:
 Google Maps allows users to see the maps of their Searched country and city in either the single page app view or they can choose to go full screen.
@@ -43,10 +43,11 @@ Google Chrome
 Mozilla Firefox
 Opera
 Microsoft Edge
+
 Deployment:
 deploying as soon as there is something worth showing to the target audience of ‘end users’ so that we can get feedback as early as possible.
 Using Cloud9 the code has been committed and pushed to:
 https://github.com/CaseyScott/milestone-2-interactive-frontend
 The website is published using GitHub Pages:
-<!—link is github pages: https://caseyscott.github.io/milestone-2-interactive-frontend/
+https://caseyscott.github.io/milestone-2-interactive-frontend/
 
