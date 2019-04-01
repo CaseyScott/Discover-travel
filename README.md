@@ -15,9 +15,19 @@ This information contains contact details and star ratings to make your dinning,
 'Discover' is for users looking for an easy way to search popular locations around the world, it allows users to choose between a Country selector and city input search bar to be shown on the map different Locations, Attractions, Accommodation, Restaurants, Bars, Banks and airports. By searching the location then choosing Hotels the user will be shown all the Hotels in that area with contact details and useful information.
 
 ## User Stories:    
--	As a user, I can search the country and city I want to travel to, find Hotels and Bars within the area and places of interest close to connecting airlines.   
--	As a user not knowing where I would like to travel I can use one of the YouTube links to get hints of great tourism destinations. Then use this app to find more information.  
--	As a user looking to ‘Bar Hop’ through the USA I can use the ‘Bar’ selector and find Pubs and cocktail bars in the location of interest.    
+-	As a user, looking to travel to new citys, i want to find Hotels and Bars within the area of interest.
+1. I can search hotels by chosing the country drop down, enter the city and click hotels
+2. I can search also search museums, restaurants, bars, airports and banks.
+
+
+-	As a user not knowing where I would like to travel I can use one of the YouTube links to get hints of great tourism destinations. Then use this website to find more information. 
+1. Not knowing exactly where I want to travel next and staying on 'Discover' site I can view youtube videos of popular destinations.
+2. watch other related videos of destinations 
+
+-	As a user looking to ‘Bar Hop’ through the USA I can use the ‘Bar’ selector and find Pubs and cocktail bars in the location of interest.
+1. starting in the city I can search bar after bar using 'Discover' to find all the top star rated bars around.
+2. I can choose my hotel which  is suited to the spot with higher class bars
+3. using the Restaurants selector to dine while out on the town.
 
 ## Wireframes:  
 [assets/images/mockup.pdf](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.pdf)<br>
