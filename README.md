@@ -20,7 +20,7 @@ This information contains contact details and star ratings to make your dinning,
 -	As a user looking to ‘Bar Hop’ through the USA I can use the ‘Bar’ selector and find Pubs and cocktail bars in the location of interest.    
 
 ## Wireframes:  
-[assets/images/mockup.pdf](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.pdf)
+[assets/images/mockup.pdf](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.pdf)<br>
 [assets/images/mockup.png](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.pdf)
 
 ## Features:  
@@ -78,15 +78,17 @@ https://caseyscott.github.io/milestone-2-interactive-frontend/
 
 ## Credits:
 
-## Content:  
-
 ## Media:  
 -	The you tube videos used in this website were obtained from top search results  
--	The background image was obtained for google images  
+-	The background image was obtained for google images
+-	maps obtained from googles map api
 
 ## Code:  
--	Code for forms, tables and iframes used were obtained from bootstrap website  
+-	Code for forms, tables and iframes used were obtained from bootstrap libarires website.  
+
+
+### Acknowledgements:
+Thank you to the students using Slack that have given helpful advise.
 
 ## Disclaimer:  
 The content used in this website is for educational purposes only.  
-
