@@ -329,19 +329,15 @@ input[name="option"] {
  }
 
  #form>input {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
-  width: 75vw;
+  margin: 0 auto;
+  width: 30vw;
   height: 30px;
  }
 
  #form>textarea {
   height: 80px;
-  width: 75vw;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  width: 30vw;
+  margin: 0 auto;
  }
  
  .btn.btn-enquiry{

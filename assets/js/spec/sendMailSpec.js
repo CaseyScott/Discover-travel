@@ -1,4 +1,4 @@
-describe("sendMail", function() {
+describe("sendMail function", function() {
 
     beforeEach(function() {
         sendmail = new sendMail();
