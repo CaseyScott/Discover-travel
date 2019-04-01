@@ -24,8 +24,7 @@ As a user looking to ‘Bar Hop’ through the USA I am able to use the ‘Bar�
 
 WireFrames:  
 
-wire frame mock up in Images*
-
+[assets/images/mockup.pdf](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.pdf)
 
 Features:  
 
