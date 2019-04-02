@@ -69,7 +69,7 @@ Discover is for users looking for an easy way to search popular locations around
 3. Testing to ensure the Googles Maps API and Google Places API have been connected to the deployed GitHub Pages. Setting both API to enabled on Google map javascript api website.
 4. markers on map not clearing after changing search area. Fixed with clearMarkers onclick function.
 
-###Browser testing for all features: 
+### Browser testing for all features: 
 - Testing screen sizing.
 - Map in standard view and full screen.
 - Selector radio buttons.
@@ -91,10 +91,10 @@ Discover has been deployed using GitHub Pages
 ### GitHub Pages:  
 https://github.com/CaseyScott/milestone-2-interactive-frontend/deployments  
 
-##To deploy Discover simply click the link below.  
+## To deploy Discover simply click the link below.  
 https://caseyscott.github.io/milestone-2-interactive-frontend/  
 
-###To run in your own Environment:
+### To run in your own Environment:
 1. Go to [Github](https://github.com/CaseyScott/milestone-2-interactive-frontend)
 2. Click on clone or download
 3. Create a new work space on your cloud 9
