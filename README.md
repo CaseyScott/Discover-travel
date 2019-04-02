@@ -75,7 +75,7 @@ Discover is for users looking for an easy way to search popular locations around
 - Selector radio buttons.
 - Email test sent.
 - Youtube links.
-All tested in the following browsers:
+#### All tested in the following browsers:
 -	Google Chrome  
 -	Mozilla Firefox  
 -	Opera  
@@ -87,9 +87,6 @@ All tested in the following browsers:
 This project was developed using Cloud9  IDE.  
 Committed to git and pushed to GitHub.  
 Discover has been deployed using GitHub Pages  
-
-### GitHub Pages:  
-https://github.com/CaseyScott/milestone-2-interactive-frontend/deployments  
 
 ## To deploy Discover simply click the link below.  
 https://caseyscott.github.io/milestone-2-interactive-frontend/  
