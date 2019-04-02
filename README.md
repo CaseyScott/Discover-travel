@@ -50,18 +50,32 @@ Discover is for users looking for an easy way to search popular locations around
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.
+- [Emailjs](http://www.emailjs.com/) Emailjs allows users to send emails from JavaScript.
 - [Jasmine](https://jasmine.github.io/)
     - This project used **Jasmine** to automatically test all JavaScript and jQuery code.
-- [Google Maps API](https://developers.google.com/maps/documentation/)
+- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/)
     
 ## Testing:  
 -	The code has been written and tested in Cloud9 and Google Chrome Developer Tools.  
 -	[HTML]( https://validator.w3.org/) code has been tested with mark-up validation service  
 -	[CSS](https://jigsaw.w3.org/css-validator/) code has been tested with  CSS validation service  
--	[Javascript]( and jQuery code has been tested using JSLint  
--	Jasmine testing for email   
+-	[Javascript](https://www.jslint.com/) and jQuery code has been tested using JSLint  
+-	[Jasmine](https://jasmine.github.io/) testing for email 
+-   Email function was tested using Gmail and Emailjs.
 
-Browser testing for all features:  
+### Bugs fixed:
+1. city search bar not emptying after country dropdown changed. fixed by switch the country dropdown and search bar positions.
+2. email accepting any input fixed by using pattern=".+@gmail.com" making it only accept gmail.com input.
+3. Testing to ensure the Googles Maps API and Google Places API have been connected to the deployed GitHub Pages. Setting both API to enabled on Google map javascript api website.
+4. markers on map not clearing after changing search area. Fixed with clearMarkers onclick function.
+
+###Browser testing for all features: 
+- Testing screen sizing.
+- Map in standard view and full screen.
+- Selector radio buttons.
+- Email test sent.
+- Youtube links.
+All tested in the following browsers:
 -	Google Chrome  
 -	Mozilla Firefox  
 -	Opera  
@@ -74,17 +88,19 @@ This project was developed using Cloud9  IDE.
 Committed to git and pushed to GitHub.  
 Discover has been deployed using GitHub Pages  
 
-## GitHub:  
-https://github.com/CaseyScott/milestone-2-interactive-frontend 
-
-## GitHub Pages:  
+### GitHub Pages:  
 https://github.com/CaseyScott/milestone-2-interactive-frontend/deployments  
 
-To deploy Discover simply click the link below.  
-Deployed link:  
+##To deploy Discover simply click the link below.  
 https://caseyscott.github.io/milestone-2-interactive-frontend/  
 
-## Credits:
+###To run in your own Environment:
+1. Go to [Github](https://github.com/CaseyScott/milestone-2-interactive-frontend)
+2. Click on clone or download
+3. Create a new work space on your cloud 9
+4. Alt t for new terminal type git clone https://github.com/CaseyScott/milestone-2-interactive-frontend
+5. Run the index.html file
+
 
 ## Media:  
 -	The you tube videos used in this website were obtained from top search results  
