@@ -330,14 +330,16 @@ input[name="option"] {
 
  #form>input {
   margin: 0 auto;
-  width: 30vw;
+  width: 45vw;
   height: 30px;
+  text-align: center;
  }
 
  #form>textarea {
   height: 80px;
-  width: 30vw;
+  width: 45vw;
   margin: 0 auto;
+  text-align: center;
  }
  
  .btn.btn-enquiry{

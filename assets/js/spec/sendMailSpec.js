@@ -18,5 +18,4 @@ describe("sendMail function", function() {
         var result = sendMail("FAILED");
         expect(result).toBe("Message was not sent");
     });
-    
 });
