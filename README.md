@@ -99,6 +99,12 @@ https://caseyscott.github.io/milestone-2-interactive-frontend/
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. In a linux enviroment like cloud9 IDE type git clone then paste the URl from the clone with HTTPS
 
+### Making changes
+1. From the clone you as a developer can make changes to the repository
+2. Once your changes have been testing you can set up your GitHub pages to Deploy automatically when ever you push to GitHub.
+3. In GitHub navigate to your `<username>.github.io` repository and click Settings
+4. Within Settings, navigate to the Source section within the GitHub Pages section. From the dropdown menu, selet master branch and then click Save.
+5. Now that your GitHub pages site is set up, you can use `git commit` and `git push` to send yours changes to GitHub.
  
 
 ## Media  
