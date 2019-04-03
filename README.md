@@ -6,15 +6,15 @@
 
  
 
-## Overview:  
+## Overview  
 Discover is designed for those looking to explore the world.
 With a simple to use map which works on all devices you can search for hotels, bars, restaurants and more anywhere around the globe.
 This information contains contact details and star ratings to make your dinning, accommodation or travel decisions a smooth and user-friendly experience.
 
-## UX:  
+## UX 
 Discover is for users looking for an easy way to search popular locations around the world, it allows users to choose between a Country selector and city input search bar to be shown on the map different Locations, Attractions, Accommodation, Restaurants, Bars, Banks and airports. By searching the location then choosing Hotels the user will be shown all the Hotels in that area with contact details and useful information.
 
-## User Stories:    
+## User Stories   
 -	As a user, looking to travel to a new city, I want to find Hotels and Bars within the area of interest.
 1. I can search hotels by chosing the country drop down, enter the city and click hotels
 2. I can also search museums, restaurants, bars, airports and banks.
@@ -29,7 +29,7 @@ Discover is for users looking for an easy way to search popular locations around
 2. I can choose my hotel which  is suited to the spot with higher class bars.
 3. Using the Restaurants selector to dine while out on the town.
 
-## Wireframes:  
+## Wireframes 
 [mock-up using word](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.png)
 
 ## Features:  
@@ -55,7 +55,7 @@ Discover is for users looking for an easy way to search popular locations around
     - This project used **Jasmine** to automatically test all JavaScript and jQuery code.
 - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/)
     
-## Testing:  
+## Testing  
 -	The code has been written and tested in Cloud9 and Google Chrome Developer Tools.  
 -	[HTML]( https://validator.w3.org/) code has been tested with mark-up validation service  
 -	[CSS](https://jigsaw.w3.org/css-validator/) code has been tested with  CSS validation service  
@@ -63,7 +63,7 @@ Discover is for users looking for an easy way to search popular locations around
 -	[Jasmine](https://jasmine.github.io/) testing for email 
 -   Email function was tested using Gmail and Emailjs.
 
-### Bugs fixed:
+### Bugs fixed
 1. city search bar not emptying after country dropdown changed. fixed by switch the country dropdown and search bar positions.
 2. email accepting any input fixed by using pattern=".+@gmail.com" making it only accept gmail.com input.
 3. Testing to ensure the Googles Maps API and Google Places API have been connected to the deployed GitHub Pages. Setting both API to enabled on Google map javascript api website.
@@ -83,33 +83,36 @@ Discover is for users looking for an easy way to search popular locations around
 
 
 
-## Deployment:  
+## Deployment
 This project was developed using Cloud9  IDE.  
 Committed to git and pushed to GitHub.  
 Discover has been deployed using GitHub Pages  
 
-## To deploy Discover simply click the link below.  
+## To run the deployed website simply click the link below.  
 https://caseyscott.github.io/milestone-2-interactive-frontend/  
 
-### To run in your own Environment:
-1. Go to [Github](https://github.com/CaseyScott/milestone-2-interactive-frontend)
-2. Click on clone or download
-3. Create a new work space on your cloud 9
-4. Alt t for new terminal type git clone https://github.com/CaseyScott/milestone-2-interactive-frontend
-5. Run the index.html file
+### How to Clone
+1. Using this link [Github](https://github.com/CaseyScott/milestone-2-interactive-frontend)
+2. On GitHub, navigate to the main page of the repository
+3. Click Clone Or Download.
+4. On the Clone with HTTPS pop up, copy the clone URL for the repository.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. In a linux enviroment like cloud9 IDE type git clone then paste the URl from the clone with HTTPS
 
+ 
 
-## Media:  
+## Media  
 -	The you tube videos used in this website were obtained from top search results  
 -	The background image was obtained for google images
 -	maps obtained from googles map api
 
-## Code:  
--	Code for forms, tables and iframes used were obtained from bootstrap libarires website.  
+## Credits 
+-   JavaScript Code snippets used for Maps, markers and clearing the markers from Google maps api website
+-   HTML for forms, tables and iframes used were obtained from bootstrap libarires website.  
 
 
-### Acknowledgements:
+### Acknowledgements
 Thank you to the students using Slack that have given helpful advise.
 
-## Disclaimer:  
+## Disclaimer 
 The content used in this website is for educational purposes only.  

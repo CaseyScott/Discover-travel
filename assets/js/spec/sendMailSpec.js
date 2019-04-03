@@ -1,7 +1,7 @@
 describe("sendMail function", function() {
 
     beforeEach(function() {
-        sendmail = new sendMail();
+        let sendmail = new sendMail();
     });
     describe("sendMail tests", function() {
         it("should exist", function() {
@@ -9,11 +9,11 @@ describe("sendMail function", function() {
         });
     });
     it("should return Your message has been sent successfully", function() {
-        var result = sendMail("SUCCESS");
+        let result = sendMail("SUCCESS");
         expect(result).toBe("Your message has been sent successfully");
     });
     it("should return Message was not sent", function() {
-        var result = sendMail("FAILED");
+        let result = sendMail("FAILED");
         expect(result).toBe("Message was not sent");
     });
 });
