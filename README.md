@@ -30,7 +30,7 @@ Discover is for users looking for an easy way to search popular locations around
 3. Using the Restaurants selector to dine while out on the town.
 
 ## Wireframes 
-[mock-up using word](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.png)
+[wireframe mock-up](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.png)
 
 ## Features:  
 -	Discover uses Google Maps api which displays the maps of their Searched country and city in either the website window view or they can choose to go full screen.  
@@ -99,6 +99,8 @@ https://caseyscott.github.io/milestone-2-interactive-frontend/
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. In a linux enviroment like cloud9 IDE type git clone then paste the URl from the clone with HTTPS
 
+- For other ways to clone or other information about cloning a repository [GitHub.com](https://caseyscott.github.io/Discover-travel/)
+
 ### Making changes
 1. From the clone you as a developer can make changes to the repository
 2. Once your changes have been testing you can set up your GitHub pages to Deploy automatically when ever you push to GitHub.
@@ -118,7 +120,7 @@ https://caseyscott.github.io/milestone-2-interactive-frontend/
 
 
 ### Acknowledgements
-Thank you to the students using Slack that have given helpful advise.
+Thank you to the students and Mentors using Slack that have given helpful advise.
 
 ## Disclaimer 
 The content used in this website is for educational purposes only.  
