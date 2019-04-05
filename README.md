@@ -92,7 +92,7 @@ Discover has been deployed using GitHub Pages
 https://caseyscott.github.io/milestone-2-interactive-frontend/  
 
 ### How to Clone
-1. Using this link [Github](https://github.com/CaseyScott/milestone-2-interactive-frontend)
+1. Using this link [Github](https://caseyscott.github.io/Discover-travel/)
 2. On GitHub, navigate to the main page of the repository
 3. Click Clone Or Download.
 4. On the Clone with HTTPS pop up, copy the clone URL for the repository.
