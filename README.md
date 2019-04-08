@@ -35,7 +35,7 @@ Discover is for users looking for an easy way to search popular locations around
 ## Features:  
 -	Discover uses Google Maps api which displays the maps of their Searched country and city in either the website window view or they can choose to go full screen.  
 -	By also using Google Places api, Discover allows users to choose one of the selectors to search different options in their desired location e.g.  Australia / Brisbane/ Hotel.   
--	The YouTube links to some of the top travel destinations around the world, are there to inspire places of tourism. 
+-	The YouTube links show users some of the top travel destinations around the world, they are there to inspire places of tourism. 
 -	The general enquiries email form is to make direct contact with the developer for Bug reports, advertising on this site, business partnerships or general questions.  
 
 ## Features left to implement:  
@@ -65,7 +65,7 @@ Discover is for users looking for an easy way to search popular locations around
 
 ### Bugs fixed
 1. city search bar not emptying after country dropdown changed. fixed by switch the country dropdown and search bar positions.
-2. email accepting any input fixed by using pattern=".+@gmail.com" making it only accept gmail.com input.
+2. email accepting any input fixed by using pattern=".+@" making it only accept input with @ in it.
 3. Testing to ensure the Googles Maps API and Google Places API have been connected to the deployed GitHub Pages. Setting both API to enabled on Google map javascript api website.
 4. markers on map not clearing after changing search area. Fixed with clearMarkers onclick function.
 
