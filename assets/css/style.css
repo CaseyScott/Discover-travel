@@ -199,6 +199,8 @@ table {
     z-index: 5;
     background-color: #fff;
     margin: 0 auto;
+    border-radius: 6px;
+    
 }
 
 #controls {
@@ -207,16 +209,25 @@ table {
     width: 140px;
     top: 0px;
     z-index: 5;
-    background-color: #fff;
+    background-color: #d4f5f4;
     margin: 0 auto;
+    border-radius: 6px;
+    
 }
 
 #autocomplete {
     width: 100%;
+    background-color: #d4f5f4;
+    border-radius: 6px;
+    border: 2px solid black;
+    
 }
 
 #country {
     width: 100%;
+    background-color: #d4f5f4;
+    border-radius: 6px;
+    border: 2px solid black;
 }
 
 .placeIcon {
@@ -277,11 +288,11 @@ text-align: center;
     background: -ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
     background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811', GradientType=0);
-    background-color: #77d42a;
+    background-color: #67d8d56e;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
-    border: 2px solid #268a16;
+    border: 2px solid black;
     display: inline-block;
     cursor: pointer;
     color: #306108;

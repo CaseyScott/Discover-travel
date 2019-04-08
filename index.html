@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
-    
+
     <link rel="shortcut icon" href="#">
 
 </head>
@@ -134,8 +134,8 @@
     <section>
         <div class="container-fluid">
             <div class="center-form">
-                 <form id="form" onsubmit="return sendMail(this);">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <form id="form" onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter your Email" pattern=".+@" size="30" required/>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="General Enquiries" required></textarea>
                     <button type="submit" class="btn btn-enquiry center-block">Submit</button>
@@ -143,11 +143,11 @@
             </div>
         </div>
     </section>
-    
-    
+
+
     <!-- References and initialises emailjs -->
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    
+
     <script type="text/javascript">
         (function() {
             emailjs.init("user_IplWuqfdTGajOInKSikNU");
@@ -156,7 +156,7 @@
 
     <!-- jQuery and Javascript for site functionalities -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
 
     <!-- Google Maps script for markers on the map -->
