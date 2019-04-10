@@ -20,7 +20,7 @@ Discover is for users looking for an easy way to search popular locations around
 2. I can also search museums, restaurants, bars, airports and banks.
 
 
--	As a user not knowing where I would like to travel I can use one of the YouTube links to get hints of great tourism destinations. Then use this website to find more information. 
+-	As a user not knowing where I would like to travel I can use one of the YouTube links to get hints of great tourism destinations. Then use this website to find more information.
 1. Not knowing exactly where I want to travel next and staying on Discover site I can view youtube videos of popular destinations.
 2. watch other related videos of destinations 
 
@@ -28,6 +28,9 @@ Discover is for users looking for an easy way to search popular locations around
 1. Starting in the city I can search bar after bar using Discover to find all the top star rated bars around.
 2. I can choose my hotel which  is suited to the spot with higher class bars.
 3. Using the Restaurants selector to dine while out on the town.
+
+-  As a user looking to advertise on websites.
+1. I am able to directly contact the Developer to  enquire about paid advertising.
 
 ## Wireframes 
 [wireframe mock-up](https://github.com/CaseyScott/milestone-2-interactive-frontend/blob/master/assets/images/mockup.png)
@@ -68,6 +71,7 @@ Discover is for users looking for an easy way to search popular locations around
 2. email accepting any input fixed by using pattern=".+@" making it only accept input with @ in it.
 3. Testing to ensure the Googles Maps API and Google Places API have been connected to the deployed GitHub Pages. Setting both API to enabled on Google map javascript api website.
 4. markers on map not clearing after changing search area. Fixed with clearMarkers onclick function.
+5. Markers not showing in side panel on desktop, google chrome extensions (adblocker) disabling image or marker. (adblocker needs to be allowed on the page to work)
 
 ### Browser testing for all features: 
 - Testing screen sizing.

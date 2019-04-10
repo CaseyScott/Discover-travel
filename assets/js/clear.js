@@ -7,20 +7,6 @@ $(document).ready(function() {
     country.addEventListener('change', () => {
         autoComplete.value = '';
     });
-
-    // Function for disabling radio buttons when the location field is empty
-    
-    $('input[type="text"]').on('input propertychange paste', function(e) {
-
-        if ($('#autocomplete').val().length > 0) {
-
-            $('input[type="radio"]').prop('disabled', false);
-
-        }
-        else {
-            $('input[type="radio"]').prop('disabled', true);
-        }
-    });
     
     // Function for clearing markers when another country is selected
     
