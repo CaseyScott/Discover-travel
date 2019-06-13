@@ -311,7 +311,7 @@ input::placeholder {
 }
 
 #places {
-    width: 60%;
+    width: 35%;
     border-radius: 6px;
     -moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
     -webkit-box-shadow: inset 0px 1px 0px 0px #97c4fe;
@@ -438,5 +438,11 @@ input[name="option"] {
 @media (max-width: 1180px) {
     #listing {
         left: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    #places {
+        width: 100%;
     }
 }
